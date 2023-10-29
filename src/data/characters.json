@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Ryu",
+        "age": 32,
+        "nationality": "Japanese",
+        "fighting_style": "Ansatsuken"
+    },
+    {
+        "name": "Ken",
+        "age": 31,
+        "nationality": "American",
+        "fighting_style": "Ansatsuken"
+    },
+    {
+        "name": "Chun-Li",
+        "age": 32,
+        "nationality": "Chinese",
+        "fighting_style": "Chinese martial arts"
+    },
+    {
+        "name": "Guile",
+        "age": 38,
+        "nationality": "American",
+        "fighting_style": "Military Fighting"
+    },
+    {
+        "name": "Zangief",
+        "age": 55,
+        "nationality": "Russian",
+        "fighting_style": "Russian wrestling"
+    },
+    {
+        "name": "Dhalsim",
+        "age": 62,
+        "nationality": "Indian",
+        "fighting_style": "Yoga"
+    },
+    {
+        "name": "Blanka",
+        "age": 53,
+        "nationality": "Brazilian",
+        "fighting_style": "Feral movement"
+    },
+    {
+        "name": "M. Bison",
+        "age": 56,
+        "nationality": "Unknown",
+        "fighting_style": "Psycho Power"
+    },
+    {
+        "name": "Cammy",
+        "age": 27,
+        "nationality": "British",
+        "fighting_style": "Shadaloo assassination techniques"
+    },
+    {
+        "name": "Sakura",
+        "age": 22,
+        "nationality": "Japanese",
+        "fighting_style": "Ansatsuken"
+    },
+    {
+        "name": "Juri",
+        "age": 25,
+        "nationality": "South Korean",
+        "fighting_style": "Taekwondo"
+    },
+    {
+        "name": "Rashid",
+        "age": 26,
+        "nationality": "Middle Eastern",
+        "fighting_style": "Parkour and wind-based attacks"
+    }
+]

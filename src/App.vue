@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import { useCharacterStore } from '@/stores/characters';
+
+const characterStore = useCharacterStore()
+console.log('characters: ', characterStore.characters)
+
+characterStore.increment()
+console.log('characters: ', characterStore.doubleCount)
 </script>
 
 <template>
@@ -9,7 +16,12 @@ import HelloWorld from './components/HelloWorld.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
-
+      
+      <div v-bind:key="characterItem.age" v-for="characterItem in characterStore.characters">
+        <h1>{{ characterItem.name }}</h1>
+        <br>
+      </div>
+    
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
